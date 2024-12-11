@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap");
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -100,8 +102,6 @@ body {
 
 .image-container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: 5% 0;
 }
 
@@ -109,8 +109,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
+    margin-inline: auto;
     width: 10%;
+    gap: 5px;
 }
 
 .image-lists > img {
@@ -121,4 +122,29 @@ body {
     text-align: center;
     font-size: 12px;
     text-wrap: pretty;
+}
+
+.sub-container-second {
+    background-color: #e5e7eb;
+    width: 100%;
+    padding: 5% 0;
+}
+
+.quote-container {
+    margin-inline: auto;
+    width: 80%;
+}
+
+.quote-text > p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    padding: 10px;
+}
+
+.quote-author > p {
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;
 }
