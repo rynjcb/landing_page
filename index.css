@@ -189,3 +189,14 @@ body {
     color: #f9faf8;
     font-weight: bold;
 }
+
+.sub-container-fourth {
+    background-color: #1f2937;
+    width: 100%;
+}
+
+.footer-container {
+    padding: 2% 0;
+    text-align: center;
+    color: #f9faf8;
+}
